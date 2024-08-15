@@ -1,0 +1,26 @@
+<?php
+
+return [
+
+    // 'api_baseurl' => 'http://localhost:1926',
+    'jwt_key' => '',
+    'client_token' => '',
+    's3' => [
+        'version' => 'latest',
+        'region'  => '',
+        'endpoint' => '',
+        'use_path_style_endpoint' => true,
+        'credentials' => [
+            'key'    => '',
+            'secret' => '',
+        ],
+    ],
+    'mail' => [
+        'class' => '',
+        'host' => '',
+        'username' => '',
+        'password' => '',
+        'port' => '',
+        'encryption' => '',
+    ]
+];
